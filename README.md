@@ -2,6 +2,8 @@
 
 **Что это? Это обычный todo, но на React и на Electron.**
 
+![Превью](/images/87Todo_preview.png)
+
 ### Установка
 `npm install`
 #### Иногда
