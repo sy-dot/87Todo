@@ -1,0 +1,43 @@
+{
+  "name": "87todo",
+  "version": "1.0.0",
+  "description": "Туду лист",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "distwin": "electron-builder build --win"
+  },
+  "author": "87SQUAD",
+  "license": "ISC",
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "jquery": "^3.2.1",
+    "jsdom": "^9.12.0"
+  },
+  "_note": "Change Theme to light in order to change themes (EDITED)",
+  "Theme": "dark",
+  "devDependencies": {
+    "electron": "^21.2.0",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "com.87SQUAD.todo",
+    "productName": "87Todo",
+    "compression": "maximum",
+    "linux": {
+      "target": "AppImage"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "src/img/icon.png"
+    },
+    "nsis": {
+      "deleteAppDataOnUninstall": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "allowElevation": true,
+      "runAfterFinish": false,
+      "menuCategory": true
+    }
+  }
+}

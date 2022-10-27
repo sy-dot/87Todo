@@ -1,0 +1,77 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  overflow-x: hidden;
+}
+
+a, a:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a {
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+a:hover {
+  color: #f7f7f780;
+}
+
+#root * {
+  box-sizing: border-box!important;
+}
+
+.chakra-stack .css-1c03cv2 {
+  display: none;
+}
+
+.chakra-heading {
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+
+/*==================================
+=            Scroll bar            =
+==================================*/
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-button {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2c79ff;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
