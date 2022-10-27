@@ -14,7 +14,7 @@
 **scripts** (или использовать команды **builder**),
 **`package.json` > build.** 
 
-Подробнее **[тут](https://www.electron.build/multi-platform-build.html)** и **[тут](https://www.electron.build/configuration/configuration.html)**
+Подробнее **[тут](https://www.electron.build/multi-platform-build.html){:target="_blank"}** и **[тут](https://www.electron.build/configuration/configuration.html){:target="_blank"}**
 
 **Использовался Electron 21.2.0**
 * * *
