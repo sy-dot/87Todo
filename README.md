@@ -19,6 +19,13 @@
 Подробнее **[тут](https://www.electron.build/multi-platform-build.html)** и **[тут](https://www.electron.build/configuration/configuration.html)**
 
 **Использовался Electron 21.2.0**
+
+* * *
+
+**Данные приложения, кэш и тд. хранятся по данному пути:**
+**`$:\Users\%username%\AppData\Roaming\87Todo`**
+**При деинсталляции приложения все данные удаляются!**
+
 * * *
 **[Исходный репозиторий Todo на React.](https://github.com/dumindapriyasad/todo-app)**
  
