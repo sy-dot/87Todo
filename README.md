@@ -6,8 +6,9 @@
 
 ### Установка
 `npm install`
-#### Иногда
+
 `npm install jquery@3.2.1 jsdom@9.12.0`
+
 
 ### Билд
 `npm run distwin`
