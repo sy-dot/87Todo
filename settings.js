@@ -3,7 +3,7 @@ const storage = new Store()
 
 
 function getWinSettings () {
-  const default_bounds = [700, 200]
+  const default_bounds = []
   const size = storage.get('win-size')
 
   if (size) return size
