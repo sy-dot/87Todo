@@ -1,6 +1,6 @@
 {
   "name": "87todo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Туду лист",
   "main": "main.js",
   "scripts": {
